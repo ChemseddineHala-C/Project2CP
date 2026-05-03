@@ -17,6 +17,7 @@ import 'admin/addvet.dart';
 import 'package:projetsndcp/consumer/homePage.dart';
 import 'consumer/batchDetails.dart';
 import 'consumer/batchReportPageC.dart';
+import 'package:projetsndcp/signin/login/loginPage.dart';
 //import 'package:projetsndcp/vitirinaire/batchReportPage.dart';
 
 void main() {
@@ -97,7 +98,7 @@ class MyApp extends StatelessWidget {
             ),
             dividerTheme: const DividerThemeData(color: Colors.white12),
           ),
-          home: const BatchDetails(),
+          home: const SplashPage(),
           // RoleSelectionPage()
           // SplashPage(),
           // Fivepage( email: 'hakoben@gmail.com',)
